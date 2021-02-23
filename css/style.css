@@ -1,0 +1,112 @@
+body {
+  background-color: #222222;
+  color: #eeeeee;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #eeeeee;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.div_header {
+  margin: 60px;
+}
+
+.div_header > div {
+  float: left;
+}
+
+.personal_photo {
+  width: 500px;
+  height: 500px;
+
+  border: 10px solid #dfc64a;
+  border-radius: 325.5px;
+
+  background-position: top;
+  background-size: 100%;
+
+  margin-right: 60px;
+}
+
+header h1 {
+  margin: 0;
+
+  font-size: 144px;
+}
+
+header p {
+  margin: 0;
+
+  color: #aaaaaa;
+
+  font-size: 64px;
+}
+
+.div_contacts {
+  margin-top: 60px;
+}
+
+.social_networks {
+  height: 64px;
+}
+
+.div_contacts div {
+  float: left;
+}
+
+.contact_logo {
+  height: 64px;
+  width: 64px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.contact_text {
+  height: 64px;
+
+  line-height: 64px;
+  font-size: 64px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.div_contacts_first_column a {
+  display: block;
+
+  margin-bottom: 20px;
+}
+
+.div_contacts_second_column .contact_logo {
+  display: inline-block;
+
+  margin-bottom: 20px;
+}
+
+.div_contacts_second_column .contact_text {
+  display: block;
+
+  margin-bottom: 20px;
+}
