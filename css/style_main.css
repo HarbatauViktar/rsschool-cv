@@ -1,0 +1,14 @@
+@import url("style_header.css");
+@import url("style_articles.css");
+
+main {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+article {
+  border-top: 10px solid #dfc64a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
