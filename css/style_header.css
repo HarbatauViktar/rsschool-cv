@@ -12,17 +12,24 @@ a:hover {
 }
 
 .div_header {
+  display: flex;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.personal_photo {
+.personal_photo,
+.header_contacts {
   float: left;
+}
 
+.personal_photo {
   box-sizing: border-box;
 
   width: 500px;
   height: 500px;
+
+  margin-top: auto;
+  margin-bottom: auto;
 
   border: 10px solid #dfc64a;
   border-radius: 325.5px;
