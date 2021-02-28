@@ -1,0 +1,20 @@
+@import url("style_header.css");
+@import url("style_articles.css");
+@import url("style_code.css");
+
+body {
+  width: 1920px;
+  margin: auto;
+}
+
+main {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+article {
+  border-top: 10px solid #dfc64a;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
