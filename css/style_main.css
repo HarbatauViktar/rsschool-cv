@@ -1,5 +1,11 @@
 @import url("style_header.css");
 @import url("style_articles.css");
+@import url("style_code.css");
+
+body {
+  width: 1920px;
+  margin: auto;
+}
 
 main {
   padding-left: 60px;
