@@ -7,59 +7,36 @@ article .div_article_line {
 }
 
 article .div_article_line:last-of-type {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .article_title {
   float: left;
-  min-width: 500px;
-  width: 500px;
+
+  min-width: 400px;
+  width: 400px;
+
   margin-right: 60px;
 }
 
-.article_title h2,
-.article_title h3 {
+.article_title > h2,
+.article_title > h3,
+.article_title > p,
+.article_value > p {
   margin: 0;
-
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-
-  text-transform: uppercase;
 }
 
-.article_title p {
-  margin: 0;
-  margin-top: 20px;
-
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 32px;
-
-  color: #aaaaaa;
+.article_title > p,
+.article_value > p {
+  margin-bottom: 20px;
 }
 
-.article_title h3 {
-  font-weight: 400;
+.article_value > p:last-of-type {
+  margin-bottom: 0;
 }
 
 .article_value {
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 48px;
-
   width: 100%;
-}
-
-.article_value > p {
-  margin: 0;
-  margin-top: 20px;
-
-  word-wrap: break-word;
-}
-
-.article_value > p:first-of-type {
-  margin-top: 0px;
 }
 
 .article_value div {
@@ -76,69 +53,54 @@ article .div_article_line:last-of-type {
   margin: 0;
 }
 
-.project_name {
-  font-weight: 700;
-}
-
-.edu_position {
-  margin: 0;
-  margin-top: 20px;
-
-  word-wrap: break-word;
-}
-
 .work_info,
 .edu_info {
-  height: 48px;
-  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
 }
 
 .edu_info:first-of-type {
-  margin: 0;
+  padding-top: 0;
 }
 
 .working_position,
+.working_period,
 .edu_position,
-.working_period,
 .edu_period {
-  line-height: 48px;
   margin: 0;
-}
-
-.working_position,
-.working_period,
-.edu_period {
-  color: #aaaaaa;
-}
-
-.working_position,
-.edu_position {
-  float: left;
-}
-
-.working_period,
-.edu_period {
-  float: right;
-
-  font-style: italic;
 }
 
 .contribution .header {
   margin: 20px 0px;
 }
 
-.bold {
-  font-weight: 700;
-}
-
-.points {
-  margin: 0;
-}
-
+.points,
 .point {
-  margin-bottom: 10;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
+.points:last-of-type,
 .point:last-of-type {
   margin-bottom: 0;
+}
+
+.info {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.ul_skills,
+.ul_skills > li {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.ul_skills {
+  padding-left: 40px;
+  column-count: 3;
 }

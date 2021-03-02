@@ -3,6 +3,7 @@ a:visited,
 a:hover,
 a:active {
   color: #eeeeee;
+
   font-style: normal;
   text-decoration: none;
 }
@@ -11,8 +12,11 @@ a:hover {
   cursor: pointer;
 }
 
+/*  */
+
 .div_header {
   display: flex;
+
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -34,24 +38,15 @@ a:hover {
   border: 10px solid #dfc64a;
   border-radius: 325.5px;
 
-  background-position: top;
-  background-size: 100%;
+  /* background-position: top; */
+  /* background-size: 100%; */
 
   margin-right: 60px;
 }
 
-header h1 {
-  margin: 0;
-
-  font-size: 144px;
-}
-
+header h1,
 header p {
   margin: 0;
-
-  color: #aaaaaa;
-
-  font-size: 64px;
 }
 
 .div_contacts {
@@ -62,24 +57,53 @@ header p {
   float: left;
 }
 
+.header_contacts > ul {
+  padding: 0;
+
+  margin: 0;
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: left;
+}
+
+.header_contacts > ul > li {
+  display: inline;
+  list-style: none;
+
+  margin: 0;
+}
+
+.contact_line {
+  display: flex;
+  justify-content: left;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .contact_logo {
-  height: 64px;
-  width: 64px;
+  display: inline-block;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 10px;
+
+  width: 64px;
+  height: 64px;
 }
 
+.contact_line > p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .contact_logo,
 .contact_text {
   height: 64px;
 
-  line-height: 64px;
-  font-size: 64px;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -88,6 +112,10 @@ header p {
   margin-bottom: 20px;
 }
 
+.contact_logo {
+  width: 64px;
+} */
+/* 
 .div_contacts_first_column a {
   display: block;
 
@@ -104,4 +132,4 @@ header p {
   display: block;
 
   margin-bottom: 20px;
-}
+} */

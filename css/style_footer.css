@@ -1,0 +1,22 @@
+.footer_logo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline-block;
+  float: right;
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-left: 30px;
+
+  height: 64px;
+}
+
+.footer_logo_long {
+  width: 180px;
+}
+
+.footer_logo_short {
+  width: 64px;
+}

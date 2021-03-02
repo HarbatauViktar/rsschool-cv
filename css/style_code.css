@@ -1,17 +1,6 @@
 pre {
-  font-family: monospace;
-
   margin: 0;
   margin-top: 20px;
-
-  white-space: pre-wrap;
-}
-
-code {
-  font-size: 32px;
-  line-height: 32px;
-
-  word-wrap: break-word;
 }
 
 details {

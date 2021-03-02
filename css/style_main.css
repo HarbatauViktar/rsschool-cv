@@ -1,20 +1,24 @@
+@import url("style_text.css");
 @import url("style_header.css");
 @import url("style_articles.css");
 @import url("style_code.css");
+@import url("style_footer.css");
 
 body {
-  width: 1920px;
+  width: 1500px;
   margin: auto;
-}
 
-main {
+  box-sizing: border-box;
   padding-left: 60px;
   padding-right: 60px;
 }
 
-article {
+article,
+footer {
   border-top: 10px solid #dfc64a;
+}
 
+article {
   padding-top: 60px;
   padding-bottom: 60px;
 }

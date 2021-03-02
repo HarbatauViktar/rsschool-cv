@@ -1,0 +1,43 @@
+.text_code {
+  font-family: monospace;
+}
+
+.text_normal {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.text_color_disc {
+  color: #aaaaaa;
+}
+
+.text_h1 {
+  line-height: 96px;
+  font-size: 96px;
+}
+
+.text_h2 {
+  line-height: 48px;
+  font-size: 48px;
+}
+
+.text_regular {
+  line-height: 32px;
+  font-size: 32px;
+}
+
+.text_weight_normal {
+  font-weight: 400;
+}
+
+.text_weight_bold {
+  font-weight: 700;
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+
+.text_style_italic {
+  font-style: italic;
+}
